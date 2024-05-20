@@ -1,0 +1,26 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+root = true
+
+# Default settings
+[*]
+indent_style = tab
+tab_width = 2
+insert_final_newline = true
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+
+# JavaScript, TypeScript, and JSON files
+[*.{js,ts,json}]
+indent_style = tab
+tab_width = 2
+quote_type = single
+
+# JSON files use double quotes for keys and values
+[*.json]
+quote_type = double
+
+[*.yml]
+indent_style = space
+indent_size = 2
